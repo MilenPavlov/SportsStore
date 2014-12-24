@@ -6,11 +6,13 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
     <div class="navbar navbar-inverse" role="navigation">
         <a class="navbar-brand" href="#">SPORTS STORE</a>
+        @Html.Action("Summary", "Cart")
     </div>
     <div class="row panel">
         <div id="categories" class="col-xs-3">
