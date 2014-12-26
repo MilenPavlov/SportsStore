@@ -20,7 +20,7 @@ namespace SportsStore.Domain.Concrete
         public string ServerName = "smtp.example.com";
         public int ServerPort = 587;
         public bool WriteAsFile = true;
-        public string FileLocation = @"c:\sports_store_emails";
+        public string FileLocation = @"c:\sportsstoreemails";
     }
     public class EmailOrderProcessor : IOrderProcessor
     {
