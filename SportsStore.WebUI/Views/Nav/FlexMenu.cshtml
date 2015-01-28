@@ -6,7 +6,7 @@
 }
 
 <div class="@wrapperClasses">
-    @Html.ActionLink("Home", "List", "Product",
+    @Html.ActionLink("Home", "List", "Products",null,
          new
          {
              @class = horizontal ? "btn btn-default btn-sm" :
@@ -16,7 +16,7 @@
     {
         @Html.RouteLink(link, new
         {
-            controller = "Product",
+            controller = "Products",
             action = "List",
             category = link,
             page = 1
